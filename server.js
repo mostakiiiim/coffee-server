@@ -10,6 +10,7 @@ app.get('/', (req, res)=>{
         {id:1, name:'Mocha'},
         {id:2, name:'Cappuccino'},
         {id:3, name:'Americano'},
+        {id:4, name:'Latte'},
     ]
     res.json(users);
 })
